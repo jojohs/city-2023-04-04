@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    color: #222;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+.slide .item {
+    height: 360px;
+    background-image: url('/images/slide01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 40px;
+    text-align: center;
+}
+
+.gnb {
+    display: flex;
+    justify-content: center;
+}
+
+.gnb li a {
+    display: block;
+    padding: 16px 32px;
+}
+
+a:hover {
+    color: orangered;
+}
+
+.main {
+    margin: 30px 0;
+}
+
+.main h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main p {
+    margin-bottom: 26px;
+}
+
+.main .texts p b {
+    font-size: 18px;
+}
+
+.main .texts p:nth-child(1) b {
+    color: red;
+}
+
+.main .texts p:nth-child(2) b {
+    color: green;
+}
+
+.main .texts p:nth-child(3) b {
+    color: brown;
+}
+
+.copyright {
+    border-top: 1px solid #ccc;
+    padding: 30px 0;
+    font-size: 13px;
+    text-align: center;
+    color: #666;
+}
